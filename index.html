@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookman</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header -->
+    <div class="wrapper-header">
+        <div class="header-left"><img src="images/logo.png" alt=""></div>
+        <div class="search">
+            <input type="text" id="search" name="search" placeholder="ค้นหาหนังสือ...">
+            <i class='bx bx-search' ></i>
+        </div>
+        <div class="header-right">
+            <div class="login">
+                <i class='bx bx-user' ></i>
+                <a href="#">ลงชื่อเข้าใช้งาน / สมัครสมาชิก</a>
+            </div>
+            <div class="cart">
+                <i class='bx bx-cart' ></i>
+                <a href="#">ตะกร้าสินค้า</a>
+            </div>
+        </div>
+    </div> <hr>
+
+    <!-- navigation -->
+    <div class="navbar">
+        <a href="#">หนังสือ</a>
+        <a href="#">สำนักพิมพ์</a>
+        <a href="#">โปรโมชั่น</a>
+        <a href="#">ช่วยเหลือ</a>
+    </div>
+    <br>
+    
+    <!-- slider -->
+    <div class="slider-container">
+        <div class="mySlides fade">
+            <img src="images/slides-1.jpg" alt="img" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/slides-2.jpg" alt="img" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/slides-3.jpg" alt="img" style="width: 100%;">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/slides-4.jpg" alt="img" style="width: 100%;">
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    
+        <div class="dots" style="text-align: center;">
+            <span class="dot" onclick="currentSlides(1)"></span>
+            <span class="dot" onclick="currentSlides(2)"></span>
+            <span class="dot" onclick="currentSlides(3)"></span>
+            <span class="dot" onclick="currentSlides(4)"></span>
+        </div>
+    </div>
+    
+    <!-- content -->
+    <div class="content-text">
+        <h2>หนังสือขายดี</h2>
+        <h2 style="color: #717171; margin-left: 11px;">ประจำสัปดาห์</h2>
+    </div>
+    <div class="line"></div>
+
+    <div class="wrapper-content">
+        <div class="cards">
+            <div class="sale">ลด <br> 50%</div>
+        </div>
+        <div class="cards">
+            <div class="sale">ลด <br> 50%</div>
+        </div>
+        <div class="cards">
+            <div class="sale">ลด <br> 50%</div>
+        </div>
+        <div class="cards">
+            <div class="sale">ลด <br> 50%</div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="social">
+            <ul>
+                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram' ></i></a>
+                <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
